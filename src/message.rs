@@ -185,7 +185,7 @@ impl Cancel {
 
 #[derive(Debug)]
 pub struct Port {
-    listen_port: u16,
+    pub listen_port: u16,
 }
 
 impl Port {

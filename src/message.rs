@@ -183,7 +183,7 @@ impl Cancel {
     }
 }
 
-#[derive(Debug)]
+#[derive(Debug, Clone, Copy)]
 pub struct Port {
     pub listen_port: u16,
 }
